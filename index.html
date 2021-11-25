@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Inicio - Películas para ti</title>
+</head>
+<body>
+    <header>
+            <section>
+                <p id="logo1">Logo</p>
+            </section>
+
+            <nav>
+                <ul class="ul-header">
+                    <li class="li-header"><a href="index.html">Inicio</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+    </header>
+
+<!-- Contenedor y lo demás necesario para el slider -->
+    <div class="container-slider">
+                
+        <div class="slider" id="slider">
+
+            <div class= "slider__section"> <img src="img/hp1.jpg" id="slide1" class="slider__img"> </div>
+            <div class= "slider__section"> <img src="img/hp2.jpeg" id="slide2" class="slider__img"> </div> 
+            <div class= "slider__section"> <img src="img/hp3.jpg" id="slide3" class="slider__img"> </div>
+            <div class= "slider__section"> <img src="img/hp4.jpg" id="slide4" class="slider__img"> </div>
+            <div class= "slider__section"> <img src="img/hp5.jpg" id="slide5" class="slider__img"> </div>
+            <div class= "slider__section"> <img src="img/hp6.jpg" id="slide6" class="slider__img"> </div>
+                                
+        </div>
+
+        <button class="carousel_button carousel_button-left" id="btn-left">&#10094</button>
+        <button class="carousel_button carousel_button-right" id="btn-right">&#10095</button>
+
+    </div>
+
+<!-- miniaturas-->
+<div class="row">
+  
+  <div class="column">
+    <img class="demo cursor" src="img/hp1.jpg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y la Piedra filosofal</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+      <p>
+      <strong>Datos:</strong> <br>
+          Título original: Harry Potter and the Sorcerer's Stone <br>
+          Año: 2001 <br>
+          Calificación IMDb 7.6/10 <i class="material-icons"> star_rate </i>  <br>
+          Dirección: Chris Columbus <br>
+          <a href=https://www.youtube.com/watch?v=VyHV0BRtdxo> Ver tráiler </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="column">
+    <img class="demo cursor" src="img/hp2.jpeg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y cámara secreta</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+    <p>
+    <strong>Datos:</strong> <br>
+    Título original: Harry Potter and the Chamber of Secrets 
+      Año: 2002 <br>
+      Calificación IMDb 7.4/10 <i class="material-icons"> star_rate </i>  <br>
+      Dirección: Chris Columbus <br>
+      <a href=> Ver tráiler </a> </p> 
+  </div>
+</div>
+
+  <div class="column">
+    <img class="demo cursor" src="img/hp4.jpg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y el prisionero de Azkaban</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+      <p>
+      <strong>Datos:</strong>
+      Título original: Harry Potter and the Prisoner of Azkaban<br>
+      Año: 2004 <br>
+      Calificación IMDb 7.9/10 <i class="material-icons"> star_rate </i>  <br>
+      Dirección: Alfonso Cuarón<br>
+    </p>
+  </div>
+</div>
+
+  <div class="column">
+    <img class="demo cursor" src="img/hp3.jpg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y el cáliz de fuego</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+      <p>
+      <strong>Datos:</strong>
+      Título original: Harry Potter and the Goblet of Fire<br>
+      Año: 2005 <br>
+      Calificación IMDb 7.7/10 <i class="material-icons"> star_rate </i>  <br>
+      Dirección: Mike Newell<br>
+      <a href=> Ver tráiler </a>
+      </p> 
+  </div>
+</div>
+
+  <div class="column">
+    <img class="demo cursor" src="img/hp5.jpg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y el príncipe mestizo</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+      <p>
+        <strong>Datos:</strong> 
+        <br>
+        Título original: Harry Potter and the Half-Blood Prince<br>
+        Año: 2009 <br>
+        Calificación IMDb 7.6/10 <i class="material-icons"> star_rate </i>  <br>
+        Dirección: David Yates<br>
+        <a href=> Ver tráiler </a>
+      </p>
+  </div>
+</div>
+
+  <div class="column">
+    <img class="demo cursor" src="img/hp6.jpg" style="width:100%" alt="hp">
+    <p class="movie-info">Harry Potter y las reliquias de la muerte</p>
+    <button class="collapsible">Ver más</button>
+      <div class="content-movie">
+      <p>
+        <strong>Datos:</strong> <br>
+        Título original: Harry Potter and the Deathly Hallows: Part 2<br>
+        Año: 2011 <br>
+        Calificación IMDb 8.1/10 <i class="material-icons"> star_rate </i>  <br>
+        Dirección: David Yates<br>
+      </p>
+  </div>
+</div>
+
+</div>
+
+
+  
+<script src="js/carousel.js"></script>
+<script src="js/registro.js"></script>
+</body>
+</html>

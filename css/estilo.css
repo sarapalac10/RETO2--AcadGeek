@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header {
+    display: flex;
+    background-color: lightskyblue;
+}
+
+#logo1{
+    background-color: lightgreen;
+    border: solid lightgreen 2px;
+    align-content:flex-start;
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.ul-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 180px;
+    margin-left: 350px;
+}
+
+.li-header {
+    padding: 10px;
+    font-size: 18px;
+    align-items: flex-end;
+    text-decoration: underline;
+}
+
+a, a:hover, a:visited {
+    color: black;
+}
+
+fieldset{
+    background-color: rgb(157, 165, 173);
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: red;
+    text-align: center;
+    line-height: 30px;
+    display:block;
+    align-items: center;
+}
+
+#boton-enviar{
+    color: white;
+    background-color: rgb(56, 106, 243);
+    padding: 2.5px 10px 2.5px 10px;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(51, 204, 110);
+}
+
+/* Slider de imágenes */
+
+.container-slider {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #ffff,
+                0 15px 50px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.slider {
+    display: flex;
+    width: 600%;
+    height: 400px;
+    margin-left: -100%;
+}
+
+.slider__section {
+    width: 100%
+}
+
+.slider__img {
+    display: block;
+    width: 100%;
+    max-height: fit-content;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel_button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 50%;
+    background: rgba(46, 44, 44, 0.192);
+    color: black;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel_button:hover{
+    background-color: white;
+}
+
+.carousel_button-left {
+left: 10px;
+}
+
+.carousel_button-right {
+right: 10px;
+}
+
+/* Miniaturas */
+
+.movie-info{
+    font-size: 12px;
+    text-align: center;
+    font-style: italic; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 15px ;
+  }
+  
+  /* 6 columnas juntas */
+  .column {
+    float: left;
+    width: 16.66%;
+    padding-left: 7px;
+  }
+  
+  .demo {
+    opacity: 0.6;
+    margin-top: 15px;
+    height: 100px;
+  }
+  
+  .active, .demo:hover {
+    opacity: 1;
+  }
+
+  /* Estilo del menú colapsable (pop-up) */
+
+  .material-icons {
+      color: gold;
+  }
+
+  .content-movie {
+    
+    margin-top: 15px;
+    height: 100%;  
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  }
+
+  button.collapsible{
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 30%;
+    
+  }
+
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold; 
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+     
